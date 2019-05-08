@@ -9,7 +9,7 @@ import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from 
     <header class="header">
       <div class="g-row">
         <div class="g-col">
-          <h1 class="header__title">My To-do</h1>
+          <h1 class="header__title">My To-dos. Keep tracking..</h1>
 
           <ul class="header__links">
             <li *ngIf="authenticated"><a class="header__link" (click)="signOut.emit()" href="#">Sign out</a></li>
